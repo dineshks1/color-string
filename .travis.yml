@@ -8,3 +8,9 @@ node_js:
   - 6
   - 7
   - stable
+jobs:
+ exclude:
+  - arch: ppc64le
+    nodejs:
+     - "0.12"
+   
